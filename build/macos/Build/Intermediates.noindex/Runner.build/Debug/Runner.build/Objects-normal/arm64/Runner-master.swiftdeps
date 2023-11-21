@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "335cbfe972cdd93351763095a230f7ae4ac3111000afbf8716f9b1abbf304148"
+build_start_time: [1683732893, 339357000]
+build_end_time: [1683732897, 904401000]
+inputs:
+  "/Users/arturovaldes/Desktop/ecolecta/macos/Flutter/GeneratedPluginRegistrant.swift": [1683732869, 170360170]
+  "/Users/arturovaldes/Desktop/ecolecta/macos/Runner/AppDelegate.swift": [1681949587, 0]
+  "/Users/arturovaldes/Desktop/ecolecta/macos/Runner/MainFlutterWindow.swift": [1681949587, 0]

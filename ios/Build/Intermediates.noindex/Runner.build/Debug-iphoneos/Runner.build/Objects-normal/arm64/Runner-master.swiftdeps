@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "7e8a2f3d0c9251fd8190551c861ef073086b79e7989464dd1a77fcf127953dcc"
+build_start_time: [1691722866, 257396000]
+build_end_time: [1691722869, 542013000]
+inputs:
+  "/Users/arturovaldes/Desktop/ecolectaFlutter/ios/Runner/AppDelegate.swift": [1681949587, 0]

@@ -1,0 +1,11 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ x86_64-ios-simulator, arm64-ios-simulator ]
+flags:           [ not_app_extension_safe ]
+install-name:    '@rpath/MTBBarcodeScanner.framework/MTBBarcodeScanner'
+exports:
+  - targets:         [ x86_64-ios-simulator, arm64-ios-simulator ]
+    symbols:         [ _MTBBarcodeScannerVersionNumber, _MTBBarcodeScannerVersionString, 
+                       _kFocalPointOfInterestX, _kFocalPointOfInterestY ]
+    objc-classes:    [ MTBBarcodeScanner, PodsDummy_MTBBarcodeScanner ]
+...

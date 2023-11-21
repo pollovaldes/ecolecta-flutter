@@ -1,0 +1,47 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios ]
+flags:           [ not_app_extension_safe ]
+install-name:    '@rpath/qr_code_scanner.framework/qr_code_scanner'
+swift-abi-version: 7
+exports:
+  - targets:         [ arm64-ios ]
+    symbols:         [ '_$s15qr_code_scanner13QRViewFactoryC13withRegistrarACSo013FlutterPluginG0_p_tcfC', 
+                       '_$s15qr_code_scanner13QRViewFactoryC13withRegistrarACSo013FlutterPluginG0_p_tcfCTq', 
+                       '_$s15qr_code_scanner13QRViewFactoryC13withRegistrarACSo013FlutterPluginG0_p_tcfc', 
+                       '_$s15qr_code_scanner13QRViewFactoryC15createArgsCodecSo014FlutterMessageH0_So8NSObjectpyF', 
+                       '_$s15qr_code_scanner13QRViewFactoryC15createArgsCodecSo014FlutterMessageH0_So8NSObjectpyFTq', 
+                       '_$s15qr_code_scanner13QRViewFactoryC6create9withFrame14viewIdentifier9argumentsSo19FlutterPlatformView_pSo6CGRectV_s5Int64VypSgtF', 
+                       '_$s15qr_code_scanner13QRViewFactoryC6create9withFrame14viewIdentifier9argumentsSo19FlutterPlatformView_pSo6CGRectV_s5Int64VypSgtFTq', 
+                       '_$s15qr_code_scanner13QRViewFactoryC9registrarSo22FlutterPluginRegistrar_pSgvpfi', 
+                       '_$s15qr_code_scanner13QRViewFactoryCACycfC', '_$s15qr_code_scanner13QRViewFactoryCACycfc', 
+                       '_$s15qr_code_scanner13QRViewFactoryCMa', '_$s15qr_code_scanner13QRViewFactoryCMn', 
+                       '_$s15qr_code_scanner13QRViewFactoryCN', '_$s15qr_code_scanner13QRViewFactoryCfD', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC24applicationWillTerminateyySo13UIApplicationCF', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC24applicationWillTerminateyySo13UIApplicationCFTq', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC29applicationDidEnterBackgroundyySo13UIApplicationCF', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC29applicationDidEnterBackgroundyySo13UIApplicationCFTq', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC4withACSo0eG9Registrar_p_tcfC', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC4withACSo0eG9Registrar_p_tcfCTq', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC4withACSo0eG9Registrar_p_tcfc', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginC8register4withySo0eG9Registrar_p_tFZ', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginCACycfC', '_$s15qr_code_scanner20SwiftFlutterQrPluginCACycfc', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginCMa', '_$s15qr_code_scanner20SwiftFlutterQrPluginCMn', 
+                       '_$s15qr_code_scanner20SwiftFlutterQrPluginCN', '_$s15qr_code_scanner20SwiftFlutterQrPluginCfD', 
+                       '_$s15qr_code_scanner6QRViewC0C0So17MTBBarcodeScannerCSgvpfi', 
+                       '_$s15qr_code_scanner6QRViewC11QRCodeTypesSDySiSo20AVMetadataObjectTypeaGvpfi', 
+                       '_$s15qr_code_scanner6QRViewC11previewViewSo6UIViewCSgvpfi', 
+                       '_$s15qr_code_scanner6QRViewC4viewSo6UIViewCyF', '_$s15qr_code_scanner6QRViewC4viewSo6UIViewCyFTq', 
+                       '_$s15qr_code_scanner6QRViewC9withFrame0E9Registrar0E2Id6paramsACSo6CGRectV_So013FlutterPluginG0_ps5Int64VSDySSypGtcfC', 
+                       '_$s15qr_code_scanner6QRViewC9withFrame0E9Registrar0E2Id6paramsACSo6CGRectV_So013FlutterPluginG0_ps5Int64VSDySSypGtcfCTq', 
+                       '_$s15qr_code_scanner6QRViewC9withFrame0E9Registrar0E2Id6paramsACSo6CGRectV_So013FlutterPluginG0_ps5Int64VSDySSypGtcfc', 
+                       '_$s15qr_code_scanner6QRViewCACycfC', '_$s15qr_code_scanner6QRViewCACycfc', 
+                       '_$s15qr_code_scanner6QRViewCMa', '_$s15qr_code_scanner6QRViewCMn', 
+                       '_$s15qr_code_scanner6QRViewCN', '_$s15qr_code_scanner6QRViewCfD', 
+                       _Swift50Overrides, _Swift51Overrides, __Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE, 
+                       __ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E, 
+                       __ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E, 
+                       _qr_code_scannerVersionNumber, _qr_code_scannerVersionString ]
+    objc-classes:    [ FlutterQrPlugin, PodsDummy_qr_code_scanner, _TtC15qr_code_scanner13QRViewFactory, 
+                       _TtC15qr_code_scanner20SwiftFlutterQrPlugin, _TtC15qr_code_scanner6QRView ]
+...

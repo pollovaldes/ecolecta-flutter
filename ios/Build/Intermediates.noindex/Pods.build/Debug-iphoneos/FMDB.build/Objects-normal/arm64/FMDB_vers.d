@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/arturovaldes/Desktop/ecolectaFlutter/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FMDB.build/module.modulemap \
+  /Users/arturovaldes/Desktop/ecolectaFlutter/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FMDB.build/DerivedSources/FMDB_vers.c

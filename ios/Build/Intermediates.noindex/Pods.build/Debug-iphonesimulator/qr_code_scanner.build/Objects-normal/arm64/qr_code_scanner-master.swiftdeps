@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "b0d62129807be84924d125bba994b93dbc1e970afb2d798a1803cb56325083fa"
+build_start_time: [1691724033, 129923000]
+build_end_time: [1691724033, 436536000]
+inputs:
+  "/Users/arturovaldes/.pub-cache/hosted/pub.dev/qr_code_scanner-1.0.1/ios/Classes/QRView.swift": [1683052885, 915600287]
+  "/Users/arturovaldes/.pub-cache/hosted/pub.dev/qr_code_scanner-1.0.1/ios/Classes/QRViewFactory.swift": [1683052885, 915387453]
+  "/Users/arturovaldes/.pub-cache/hosted/pub.dev/qr_code_scanner-1.0.1/ios/Classes/SwiftFlutterQrPlugin.swift": [1683052885, 915050451]
